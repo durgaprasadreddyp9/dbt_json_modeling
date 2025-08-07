@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: JSON_DBT
+    schema: RAW
+    tables:
+      - name: RAW_SALES
+
+      - name: RAW_CUSTOMERS
+
+      - name: RAW_ORDERS
